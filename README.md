@@ -7,6 +7,10 @@ A Telegram bot that removes the background of images and enhances their quality 
 - **Image Enhancement**: Increases sharpness and brightness of the image.
 - **Simple to Use**: Just send an image to the bot, and it will process and return the result.
 
+1. Clone the repository:
+   ```bash
+git clone https://github.com/aliahoran2/background_remover_bot.git
+cd background_remover_bot
 ---
 pip install -r requirements.txt
 python background_remover_bot.py
