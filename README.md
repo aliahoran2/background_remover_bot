@@ -8,4 +8,26 @@ A Telegram bot that removes the background of images and enhances their quality 
 - **Simple to Use**: Just send an image to the bot, and it will process and return the result.
 
 ---
+pip install -r requirements.txt
+python background_remover_bot.py
+
+---
+
+### **نکات مهم**
+1. **ساخت ربات تلگرام**:
+   - با استفاده از [BotFather](https://core.telegram.org/bots#botfather) یک ربات ایجاد کنید و توکن آن را دریافت کنید.
+   - مقادیر `YOUR_API_ID`, `YOUR_API_HASH`, و `YOUR_BOT_TOKEN` را جایگزین کنید.
+
+2. **نصب `rembg`**:
+   - برای کار با **`rembg`** باید **Docker** یا پکیج کامل `rembg` را نصب کنید:
+     ```bash
+     pip install rembg
+     ```
+
+3. **تست ربات**:
+   - پس از اجرا، عکس ارسال کنید و خروجی را بررسی کنید.
+
+---
+
+آیا نیاز به تغییرات یا جزئیات بیشتری در این پروژه داری؟ 😊
 
