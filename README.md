@@ -1,3 +1,5 @@
+
+
 # Background Remover & Image Enhancer Bot
 
 A Telegram bot that removes the background of images and enhances their quality using Python. This bot is built using **Telethon** for Telegram API, **rembg** for background removal, and **Pillow** for image quality enhancement.
@@ -19,4 +21,6 @@ Clone the project repository from GitHub to your local machine:
 ```bash
 git clone https://github.com/aliahoran2/background_remover_bot.git
 cd background_remover_bot
-```bash
+pip install -r requirements.txt
+python background_remover_bot.py
+
